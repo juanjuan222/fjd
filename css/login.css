@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 990px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 auto;
+	position: relative;
+}
+header>img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+header a{
+	float: right;
+	line-height: 0;
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	text-decoration: none;
+	color: darkgray;
+	font-size: 12px;
+}
+header a img{
+	vertical-align: middle;
+}
+header a:hover{
+	text-decoration: underline;
+	color: firebrick;
+}
+main{
+	width: 100%;
+	height: 475px;
+	background: #6c1aaf;
+}
+.clear{
+	clear: both;
+}
+.content{
+	width: 990px;
+	height: 475px;
+	background: white;
+	margin: 0 auto;
+	position: relative;
+	background-image: url(../img/login/587d947dNd1eb143b.jpg);
+}
+.content section{
+	width: 350px;
+	height: 385px;
+	position: absolute;
+	right: 0;
+	background: white;
+	top: 40px;
+	box-shadow: 0 0 1px #ccc;
+}
+section div{
+	position: absolute;
+	display: none;
+}
+div.cxs{
+	display: block;
+}
+.content-sz li{
+	float: left;
+	height: 55px;
+	width: 175px;
+	background: white;
+	text-align: center;
+	border: solid 1px #EEEEEE;
+	
+}
+.content-sz li a{
+	color: #767676;
+	line-height: 55px;
+	font-size: 18px;
+}
+.content-sz li a:hover{
+	color: crimson;
+	font-weight: bold;
+}
+.content-sz li a:focus{
+	color: crimson;
+	font-weight: bold;
+}
+.content-rwm{
+	margin-bottom: 15px;
+}
+.content-rwm li{
+	text-align: center;
+	font-size: 13px;
+	color: black;
+}
+.content-rwm li:nth-child(1){
+	margin: 10px 10px 20px 25px;
+}
+.content-rwm li img:nth-child(2){
+	height: 160px;
+	margin-left: 10px;
+}
+.content-rwm li a{
+	color: red;
+}
+.content-ska{
+	width: 220px;
+	margin: 0 auto;
+}
+.content-ska li{
+	float: left;
+	margin-right: 10px;
+}
+.content-ska i{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	background-image: url(../img/login/qr-coagent.png);
+	background-repeat: no-repeat;
+}
+.content-ska span{
+	font-size: 12px;
+	color: gray;
+}
+.content-qwj{
+	width: 350px;
+	height: 55px;
+	line-height: 55px;
+	margin-top: 20px;
+	background: #fcfcfc;
+	text-align: center;
+}
+.content-qwj li{
+	float: left;
+	width: 75px;
+	border-right: solid 1px #EFEFEF;
+}
+.content-qwj i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background-image: url(../img/login/QQ-weixin.png);
+	background-repeat: no-repeat;
+}
+.content-qwj li a{
+	font-size: 13px;
+	color: grey;
+}
+.content-qwj li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.content-qwj>a{
+	font-size: 15px;
+	color: firebrick;
+}
+.content-qwj a:hover{
+	text-decoration: underline;
+}
+.content-qwj a img{
+	vertical-align: middle;
+}
+#z2{
+	background-position: -27px 0;
+}
+#z3{
+	background-position: -54px 0;
+}
+
+#z5{
+	background-position: -20px 0;
+}
+.content-dz {
+	margin: 30px 20px 15px 20px;
+}
+.content-dz li{
+	position: relative;
+	border: solid 1px #ccc;
+	width: 305px;
+}
+.content-dz li>i{
+	display: inline-block;
+	background-image: url(../img/login/pwd-icons-new.png);
+	width: 40px;
+	height: 38px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+}
+.content-dz li input{
+	width: 265px;
+	height: 38px;
+	left: 38px;
+	border: none;
+	position: absolute;
+}
+.content-dz li:nth-of-type(1){
+	margin-bottom: 20px;
+}
+
+.content-dz>span{
+	font-size: 12px;
+}
+input[name=button]{
+	margin-top: 15px;
+	width: 305px;
+	height: 35px;
+	background: red;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+#y1 a:focus{
+	background-position: 0 -47px;
+}
+#y2{
+	background-position: -47px 0;
+}
+#y2 a:hover{
+	background-position: -47px 0;
+}
+menu{
+	width: 305px;
+	margin: 0 auto 65px auto;
+	font-size: 13px;
+	color: gray;
+}
+menu span{
+	font-size: 13px;
+	color: gray;
+}
+menu a{
+	color: gray;
+	font-size: 13px;
+	float: right;
+}
+menu a:hover{
+	color: red;
+	text-decoration: underline;
+}
+footer{
+	width: 845px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer a{
+	font-size: 13px;
+	color: dimgrey;
+	
+	display: inline-block;
+	margin: 15px 0;
+	padding: 0 2px;
+}
+footer a:hover{
+	color: firebrick;
+}
+footer p{
+	text-align: center;
+	font-size: 13px;
+	color: dimgrey;
+}
