@@ -71,6 +71,7 @@ main{
 	color: gray;
 	background: white;
 	border: none;
+	float:right;
 }
 .left-top li span{
 	display: inline-block;
